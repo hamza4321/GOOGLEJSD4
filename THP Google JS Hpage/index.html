@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Google</title>
+  <link rel="stylesheet" href="css/index.css">
+   <link rel=icon href=favicon.ico>
+   
+
+   <script src="index.js"></script>
+     
+
+
+   </script>
+</head>
+<body>
+<header>
+  <span>
+    <span><a href="#">Gmail</a></span>
+    <span><a href="#">Images</a></span>
+    <span><button id="apps" onclick="hidePopup(); "><img src="img/applications.png"></button></span>
+    <span><button id="connexion" onclick="showPopup();">Connexion</button></span> 
+  </span>
+</header>
+
+<section id="buttonhamza">
+  <button onclick="hidePopup();"> Showtime! </button>
+
+</section>
+
+<section id="panel">
+  <div id="logo">
+    <img src="img/google.png" alt="Google logo">
+  </div>
+  <div>
+    <form>
+      <div>
+        <input id="google" type="text" name="search">
+      </div>
+      <div>
+        <button>Recherche Google</button> 
+        <button onclick="updateInput()">J'ai de la chance</button>
+      </div>
+    </form>
+  </div>
+</section>
+<footer>
+  <div>
+    <span>France</span>
+  </div>
+  <div>
+    <span><a href="#">Publicité</a></span>
+    <span><a href="#">Entreprise</a></span>
+    <span><a href="#">À propos</a></span>
+    <span>
+      <span><a href="#">Confidentialité</a></span>
+      <span><a href="#">Conditions</a></span>
+      <span><a href="#">Paramètres</a></span>
+    </span>
+  </div>
+</footer>
+</body>
+</html>
